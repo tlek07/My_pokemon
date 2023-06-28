@@ -1,0 +1,143 @@
+
+.cont{
+    background-image: url('../Components/assets/poko.jpg');
+
+
+}
+.card-id {
+    padding-left: 15px;
+    padding-top: 15px;
+    margin: 0;
+    font-weight: bold;
+
+
+}
+
+.card-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+
+}
+
+.card-row {
+    margin-top: 20px;
+    height: calc(100vh - 200px);
+    overflow: auto;
+
+
+}
+
+.poke-name {
+    text-align: left;
+    font-weight: bold;
+    display: grid;
+    place-items: left;
+    color:rgb(21, 23, 22);
+
+}
+
+.poke-card {
+    background: hsla(346, 83%, 77%, 0.5);
+    text-transform: capitalize;
+    border: 1px solid rgb(134, 229, 240);
+    font-family: 'Rootkit', serif;
+    border-radius: 30px;
+    cursor: pointer;
+    -moz-box-shadow: -2px 6px 10px -4px rgba(184, 50, 148, 0.75);
+    box-shadow: -8px 6px 14px -3px rgba(123, 219, 249, 0.75);
+    text-transform: uppercase;
+
+
+
+}
+
+.poke-card:hover{
+    box-shadow: 0 2px 20px rgba(15, 15, 15, 0.25), 0 0px 0px rgba(0, 0, 0, 0.22);
+   -webkit-transition:  box-shadow .6s ease-in;
+   background-color: hsla(186, 94%, 65%, 0.5);
+
+
+}
+
+.poke-nav {
+    font-size: 20px;
+    font-weight: bold;
+
+
+}
+
+.btn-func {
+    background: #01B798;
+    border-radius: 14px;
+    color: white;
+
+
+}
+
+.poke-content {
+    text-align: center !important;
+    font-weight: bold;
+    background-color: transparent;
+    box-shadow: -8px 6px 14px -3px rgba(43, 199, 213, 0.75);
+    border-radius: 14px;
+    text-transform: uppercase;
+
+}
+.modal-content{
+    background-color: transparent;
+    box-shadow: -8px 6px 14px -3px rgba(33, 223, 210, 0.75);
+    border-radius: 14px;
+    color:rgb(44, 42, 42);
+    background: hsla(320, 100%, 99%, 0.5);
+
+
+
+}
+.img-height {
+    height: 200px;
+}
+
+.has-search {
+    margin-top: 30px;
+
+}
+
+.has-search .form-control {
+    background-color: wheat;
+    padding-left: 2.475rem;
+
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.475rem;
+    height: 2.475rem;
+    line-height: 2.475rem;
+    text-align: center;
+    pointer-events: none;
+    color: #000004;
+
+}
+
+.search-icon {
+    font-size: 30px;
+    margin-top: -7px;
+
+}
+
+.btn {
+    margin-top: 1px;
+   /* margin-left: 1100px;*/
+   background: hsla(328, 59%, 70%, 0.5);
+   border-radius: 30px;
+   color: rgb(255, 255, 255);
+   font-family: 'Montserrat', sans-serif;
+   text-transform: uppercase;
+   background-color: hsla(186, 94%, 65%, 0.5);
+
+}
+
